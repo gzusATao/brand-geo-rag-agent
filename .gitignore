@@ -1,0 +1,56 @@
+# 本机连接配置和密钥；只提交不含真实凭据的示例。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python 环境、缓存、测试与构建产物。
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+dist/
+
+# 本地业务数据、上传资料、数据库及日志，不忽略 sql/ 下的结构 SQL。
+data/
+uploads/
+logs/
+*.log
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 编辑器、操作系统和临时文件。
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
+~$*
+
+# 本地调试、验收过程截图；运行所需图片仍提交到 app/templates/assets/。
+docs/screenshots/
+tmp/
+temp/

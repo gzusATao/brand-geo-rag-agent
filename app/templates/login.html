@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>登录 · 品牌GEO研究工作台</title>
+  <link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/login-background.css"><script src="/static/login.js" defer></script>
+</head>
+<body class="login-page">
+  <section class="login-story" aria-label="系统介绍">
+    <div class="code-rain" aria-hidden="true"></div>
+    <a class="brand-lockup story-brand" href="/login"><span class="brand-icon">G</span><span><b>GEO <em>RESEARCH</em></b><small>品牌研究工作台</small></span></a>
+    <div class="story-content"><div class="system-label"><span class="online-dot"></span> BRAND INTELLIGENCE / LOCAL WORKSPACE</div><h1>让品牌研究，<br>从<span>证据</span>开始。</h1><p class="story-description">连接品牌资料与回答样本，<br>让每一次分析有据可查，每一份内容可被核验。</p>
+      <div class="pipeline-card"><div class="pipeline-caption"><span>RESEARCH PIPELINE</span><span class="tiny-badge">可追溯</span></div><div class="pipeline"><span><b>01</b>回答样本</span><i>→</i><span><b>02</b>知识检索</span><i>→</i><span><b>03</b>人工审核</span></div><div class="pipeline-line"><span></span></div><p>原始证据 → 指标分析 → 辅助优化</p></div>
+      <div class="story-tags"><span>RAG 知识检索</span><span>GEO 品牌分析</span><span>内容审核与导出</span></div>
+    </div><div class="story-footer">UNDERGRADUATE DESIGN <span>基于 RAG 与智能体的品牌 GEO 优化系统</span></div>
+  </section>
+  <main class="login-side"><div class="login-topnote"><span class="locale-pill"><span class="online-dot"></span>本地研究环境</span><span class="locale-pill">简体中文</span></div>
+    <div class="login-card"><div class="brand-lockup card-brand"><span class="brand-icon">G</span><span><b>GEO <em>RESEARCH</em></b><small>品牌研究工作台</small></span></div><h2>登录研究工作台</h2><p class="login-intro">从数据到洞察，继续你的品牌研究。</p><div class="login-tab">账号密码登录<span>安全会话</span></div>
+      <form id="login-form">
+        <label for="login-username">管理员账号</label>
+        <div class="login-input-wrap"><svg class="field-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg><input id="login-username" name="username" autocomplete="username" required maxlength="100" placeholder="请输入管理员账号"></div>
+        <label for="login-password">登录密码</label>
+        <div class="password-wrap login-input-wrap"><svg class="field-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></svg><input id="login-password" name="password" type="password" autocomplete="current-password" required maxlength="256" placeholder="请输入登录密码"><button id="toggle-password" type="button" aria-label="显示密码" aria-pressed="false">显示</button></div>
+        <div class="login-helper"><span>会话有效期 8 小时</span><span>单管理员模式</span></div><div id="login-message" role="alert" aria-live="polite"></div><button id="login-submit" class="login-submit"><span class="login-button-label">立即登录</span></button>
+      </form>
+      <div class="login-footnote"><span>ⓘ</span><p>独立毕业设计研究环境，仅供本机演示。<br>暂不提供短信登录、注册或找回密码。</p></div>
+    </div><p class="login-boundary">毕业设计演示原型 · 模拟数据不代表真实模型效果</p><footer>GEO RESEARCH <span>© 2026</span></footer>
+  </main>
+</body>
+</html>

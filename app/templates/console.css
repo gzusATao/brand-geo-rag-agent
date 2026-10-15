@@ -1,0 +1,326 @@
+.geo-console .tabbar>span,.geo-console .tabbar>b{display:none}.console-tabs{display:flex;align-items:stretch;height:100%;overflow:auto;white-space:nowrap}.console-tab{display:flex;align-items:center;border-right:1px solid #edf0f6;padding:0 7px}.console-tab.selected{border-bottom:2px solid #2874ff;background:#fff}.console-tab button{background:transparent;color:#314b70;padding:8px 9px;border-radius:0;font-size:12px;margin:0}.console-tab.selected button{color:#2874ff}.console-tab button[data-close-tab]{padding:4px;font-size:16px}.geo-console .tabbar{padding:0}.geo-console main>header .eyebrow,.geo-console main>header .page-badge{display:none}.geo-console main>header{margin-bottom:13px}.geo-console main>header h1{font-size:25px}.geo-console main>header #subtitle{font-size:11px}.geo-console .boundary{padding:7px 12px;margin-bottom:14px;font-size:10px}.geo-console .monitor-filters label{display:flex;gap:10px;align-items:center;flex:none}.geo-console .monitor-filters input,.geo-console .monitor-filters select{width:145px;margin:0}.geo-console .monitor-filters label.range-field{min-width:250px}.range-field button{background:#fff;border:1px solid #dce3ef;color:#6c7d98;min-width:245px;padding:6px 10px;text-align:left}.geo-console .monitor-filters{gap:15px;padding:16px 12px}.date-range-popup{position:fixed;z-index:60;background:#fff;border:1px solid #e1e6f0;border-radius:6px;box-shadow:0 8px 35px #1e385e25;width:650px;max-width:calc(100vw - 20px);padding:12px 16px}.date-nav{display:flex;align-items:center;gap:5px}.date-nav span{flex:1;text-align:center;color:#8993a5;font-size:11px}.date-nav button,.date-footer button{background:#fff;color:#718097;padding:3px 10px}.date-months{display:grid;grid-template-columns:1fr 1fr;gap:30px}.date-month h3{text-align:center;font-size:15px;color:#666f80;font-weight:500;margin:10px 0}.date-week,.date-days{display:grid;grid-template-columns:repeat(7,1fr);text-align:center}.date-week{font-size:11px;color:#7e8a9e;border-bottom:1px solid #edf0f6;padding:8px 0}.date-days button{background:#fff;color:#68768b;font-size:12px;padding:7px 0;margin:2px 0;border-radius:0}.date-days button.outside-month{color:#b4bdcb;background:#f8f9fc}.date-days button.in-range{background:#edf4ff}.date-days button.endpoint{background:#2874ff;color:#fff;border-radius:4px}.date-days button:hover{background:#e7f0ff;color:#2874ff}.date-footer{display:flex;justify-content:space-between;border-top:1px solid #edf0f6;margin-top:8px;align-items:center;font-size:11px;color:#8c9ab0}.monitor-pagination button.current-page{background:#2874ff;color:white;border-color:#2874ff}.page-jump{display:inline-flex;gap:6px;align-items:center;font-size:11px;margin:0 0 0 12px}.page-jump input{width:55px;margin:0;padding:5px}.analysis-dialog{padding:0;border:0;border-radius:5px;width:min(1400px,calc(100vw - 48px));max-width:none;max-height:94vh;background:#f5f7fb;color:#223552}.analysis-dialog::backdrop{background:#0007}.analysis-heading{position:sticky;top:0;z-index:2;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:16px 20px}.analysis-heading h2{margin:0;font-size:17px}.analysis-heading button{margin:0;background:transparent;color:#526078;font-size:22px;padding:0 5px}#analysis-body{padding:20px}.analysis-title{display:flex;justify-content:space-between;align-items:center;margin:0 4px 20px;gap:16px}.analysis-title h3{margin:0;font-size:19px}.analysis-title span{font-size:11px;color:#8390a7}.analysis-brands{padding:20px 25px;background:#fff;border-radius:13px;margin-bottom:20px}.analysis-brands>div:first-child{display:flex;justify-content:space-between;align-items:center}.analysis-brands h3{font-size:15px;margin:0 0 13px}.analysis-brands>div:first-child>span{font-size:11px;color:#7f8da3}.brand-pills{display:flex;gap:10px;flex-wrap:wrap}.brand-pills span{border-radius:25px;background:#f1f4fa;color:#283e5d;font-size:12px;padding:7px 15px}.analysis-brands small{display:block;color:#94a0b2;font-size:10px;margin-top:12px}.analysis-answer-tabs{display:flex;gap:8px;overflow:auto}.analysis-answer-tabs button{flex-shrink:0;background:#fff;border:1px solid #dfe6f1;color:#73849e;padding:6px 12px;font-size:11px}.analysis-answer-tabs button.selected{border-color:#2874ff;color:#2874ff;background:#edf4ff}.evidence-title{font-size:15px;margin:14px 5px}.analysis-columns{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(300px,1fr);gap:17px}.conversation-card,.analysis-evidence{background:#fff;border:1px solid #dfe6f1;border-radius:10px;overflow:hidden}.conversation-card header,.analysis-evidence header{background:#ebf0f8;padding:17px;display:flex;justify-content:space-between;font-size:13px}.conversation-body{padding:20px}.user-bubble{background:#e5eeff;padding:14px;border-radius:14px;max-width:85%;margin-left:auto;display:table;font-size:12px;color:#557092}.model-answer{padding:20px;border:1px solid #dfebf8;border-radius:13px;margin:24px 0}.model-answer pre{background:transparent;border:0;margin:0;padding:0;color:#273c5b;font-size:13px;line-height:1.9}.conversation-body small{color:#91a0b5;font-size:10px}.analysis-evidence-body{padding:17px}.analysis-evidence-body h4{font-size:13px;margin:6px 0}.analysis-evidence-body p{font-size:11px;color:#6e809b;line-height:1.9}.analysis-evidence-body section{border-bottom:1px solid #eef2f8;margin-bottom:15px;padding-bottom:10px}.analysis-evidence-body blockquote{background:#f5f8ff;border-left:3px solid #6ea4ff;padding:10px;margin:8px 0;font-size:12px}.console-hint{font-size:11px;color:#92a0b4;line-height:1.9}.analysis-footer{display:flex;gap:15px;align-items:center;justify-content:center;margin:22px 0 0;font-size:12px;color:#8c99ad}.maintenance-summary{display:flex;justify-content:space-between;align-items:center;font-size:13px}.maintenance-summary p{font-size:12px;color:#73839b;margin:10px 0 0}.maintenance-section>summary{font-size:17px;font-weight:600;color:#193853;border-left:4px solid #4590ff;padding-left:10px;margin-bottom:20px}.maintenance-field{border:1px solid #dde6f5;border-radius:7px;margin:14px 0;padding:16px;overflow:hidden}.maintenance-field header{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#f2f5fa,#d6e0f0);margin:-16px -16px 15px;padding:10px 16px;font-size:13px}.maintenance-field header button{margin:0;padding:5px 12px;font-size:11px;background:#5143eb}.maintenance-field p{font-size:12px;color:#64809c;white-space:pre-wrap}.maintenance-question-list>div{display:flex;align-items:center;gap:12px;border-bottom:1px solid #edf1f7;padding:10px;font-size:12px}.maintenance-question-list>div>span:first-child{flex:1}.agent-welcome{display:flex;gap:16px;background:transparent;border:0;max-width:none;padding:12px 0;margin-bottom:0;box-shadow:none}.agent-avatar{border-radius:50%;background:#213a57;color:#fff;width:48px;height:48px;display:grid;place-items:center;font-size:24px;flex-shrink:0;box-shadow:0 2px 5px #17345430}.agent-welcome h2{border:0;font-size:19px;margin:0 0 12px;padding:0}.agent-welcome>div:last-child{flex:1}.agent-message{border:1px solid #edf0f6;background:white;border-radius:15px;padding:20px;color:#284365;font-size:14px;line-height:1.9}.agent-message p{margin:4px 0 17px}.agent-creation-card{margin-left:64px;border-radius:14px;padding:25px}.wizard-steps{display:flex;gap:30px;justify-content:center;margin:0 0 25px}.wizard-steps span{font-size:12px;color:#a0adbd;display:flex;align-items:center;gap:10px}.wizard-steps b{display:grid;place-items:center;border-radius:50%;background:#f0f3f8;width:26px;height:26px;font-size:12px}.wizard-steps .active{color:#2874ff}.wizard-steps .active b{background:#2874ff;color:#fff}.wizard-steps .done{color:#21a880}.wizard-actions{display:flex;justify-content:flex-end;gap:12px;margin-top:22px}.wizard-mode{display:flex;align-items:center;gap:12px;border:1px solid #dfebf8;border-radius:8px;padding:16px}.wizard-mode input{width:16px;margin:0}.wizard-mode b,.wizard-mode small{display:block}.wizard-mode small{font-size:11px;color:#8997aa}.wizard-config-card,.wizard-review{border:1px solid #dfe7f4;border-radius:7px;padding:22px;margin-top:20px}.wizard-config-card h3,.wizard-review h3{font-size:15px;margin:0 0 15px;color:#37638f}.wizard-review p{font-size:12px;color:#6d819d}.platform-options{display:flex;gap:12px;flex-wrap:wrap}.platform-options span{background:#f3f5f9;color:#99a4b4;border:1px solid #e4e8f1;padding:7px 12px;border-radius:6px;font-size:12px}.question-category-preview>div{display:flex;gap:15px;align-items:center;padding:13px;border-bottom:1px solid #e5ebf6;font-size:12px}.preferred-mode{border-color:#80afff;box-shadow:0 0 0 2px #2874ff0b}.geo-console .narrow.agent-creation-card{max-width:none}
+@media(max-width:800px){.date-months{gap:8px}.analysis-columns{grid-template-columns:1fr}.analysis-title{display:block}.agent-creation-card{margin-left:0}.wizard-steps{gap:12px}.agent-message{padding:15px;font-size:13px}.analysis-dialog{width:calc(100vw - 20px)}.maintenance-summary{display:block}.geo-console .monitor-filters label{flex-wrap:wrap}.wizard-steps span{font-size:10px}}
+/* 工作台只使用蓝色表达操作层级，状态色不与可点击操作混用。 */
+.geo-console{--blue:#2874ff;--muted:#64748b;--line:#e2e8f0;background:#f6f8fc;color:#24324b}
+.geo-console main button,.geo-console dialog button{min-height:36px;border-radius:7px;font-size:13px;padding:7px 14px;line-height:1.5}
+.geo-console main button:not(.secondary):not([data-dashboard-model]):not([data-dashboard-question]):not([data-dashboard-metric]):not([data-analysis-index]){background:var(--blue);color:#fff}
+.geo-console main button:hover:not(:disabled),.geo-console dialog button:hover:not(:disabled){box-shadow:0 2px 6px #2874ff18}
+.geo-console button:disabled{opacity:1;background:#f1f5f9!important;border-color:#e2e8f0!important;color:#94a3b8!important;box-shadow:none;cursor:not-allowed}
+.geo-console nav button.active,.geo-console nav .monitor-child.active{background:#edf4ff;color:#2162d3;box-shadow:none;font-weight:600;border-left:3px solid var(--blue)}
+.geo-console nav button{border-left:3px solid transparent}
+.geo-console .console-tab button{min-height:38px}
+.geo-console .console-tab button[data-close-tab]{min-width:28px;border-radius:5px}
+.geo-console .console-tab button[data-close-tab]:hover{background:#edf4ff}
+.geo-console main p,.geo-console .console-hint,.geo-console .guide-help{color:#64748b;font-size:13px}
+.geo-console main>header #subtitle,.geo-console .boundary{font-size:12px;color:#64748b}
+.geo-console .maintenance-field header{background:#f1f6ff}
+.geo-console .maintenance-field header button{background:var(--blue)}
+.geo-console input,.geo-console select,.geo-console textarea{border-radius:7px;min-height:36px;font-size:13px}
+.geo-console input[type="radio"]{min-height:0;accent-color:var(--blue)}
+.geo-console #csv{background:#f8fafc;padding:12px;border-style:dashed}
+.geo-console #csv::file-selector-button{background:#edf4ff;color:#2162d3;border:1px solid #bdd4ff;border-radius:6px;padding:8px 14px;margin-right:12px;cursor:pointer;font:inherit}
+.geo-console #message:not(:empty){border:1px solid #bdd4ff;background:#edf4ff;color:#285eaa;border-radius:8px;padding:12px 16px;margin:0 0 16px;font-size:13px}
+.geo-console #message.error:not(:empty){background:#fff1f2;color:#b4233b;border-color:#fecdd3}
+.geo-console button[aria-busy="true"]::before{content:"";display:inline-block;width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;vertical-align:-2px;margin-right:7px;animation:action-spin .8s linear infinite}
+.geo-console .wizard-mode:has(input:checked){background:#edf4ff;border-color:#80afff}
+.geo-console .wizard-mode small,.geo-console .wizard-steps span{font-size:12px;color:#64748b}
+.geo-console .monitor-table button{min-height:34px}
+@keyframes action-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.geo-console button[aria-busy="true"]::before{animation:none}}
+
+/* 对齐参考站的黑色导航、蓝色操作、紧凑筛选和白色数据卡。 */
+.geo-console{--blue:#337dff}
+.geo-console .topbar{background:#000}
+.brand-icon.brand-avatar{--portrait-scale:.6;width:44px;height:44px;flex-shrink:0;margin:0;background:#fff;border:1px solid #a8bfde;border-radius:11px;overflow:hidden}
+.geo-console[data-workspace-view="single"] main>header,.geo-console[data-workspace-view="library"] main>header,
+.geo-console[data-workspace-view="single"] main>.boundary,.geo-console[data-workspace-view="library"] main>.boundary{display:none}
+.geo-console nav button.active,.geo-console nav .monitor-child.active{background:#080808;color:#fff;border-left-color:transparent;border-radius:6px;box-shadow:none}
+.geo-console .monitor-toolbar h2{font-size:24px;color:#22324d}
+.geo-console .monitor-filters{background:#fff;border-radius:12px;padding:12px;gap:12px;box-shadow:0 2px 4px #0000000d}
+.geo-console .monitor-filters label{font-size:13px;font-weight:500}
+.geo-console .monitor-filters button{border-radius:4px;min-height:32px}
+.geo-console .monitor-table{border-radius:12px;box-shadow:0 2px 4px #0000000d}
+.geo-console .monitor-table th{background:#f4f5f8;font-weight:500;color:#14213b;height:40px}
+.geo-console .monitor-table td{height:49px;font-size:13px;border-bottom:1px solid #e8edf5}
+.geo-console .monitor-table td:last-child{white-space:nowrap}
+.geo-console .monitor-table button{border-radius:4px;min-height:32px;padding:4px 10px}
+.geo-console main .monitor-table button[data-monitor-action]{background:#f5f7ff;color:#4168ee;border:1px solid #bacbff}
+.geo-console .monitor-filters .range-field button{background:#fff;color:#6c7d98;border-color:#dce3ef}
+@media(min-width:761px){
+  .geo-console .topbar{height:56px;padding:0 12px}
+  .geo-console aside{top:56px;width:208px;padding:18px 8px}
+  .geo-console .tabbar{top:56px;left:208px;height:38px}
+  .geo-console .console-tab button{min-height:32px;padding:5px 9px}
+  .geo-console main{margin-left:208px;padding:106px 12px 24px}
+  .geo-console .monitor-toolbar{margin:0 8px 10px}
+  .geo-console .monitor-table{margin-top:10px;padding:16px}
+}
+.geo-console .analysis-dialog{background:#f4f7fb}
+.analysis-columns>*{min-width:0}
+.analysis-columns.evidence-collapsed{grid-template-columns:minmax(0,1fr)}
+.analysis-title h3,.user-bubble,.model-answer pre,.analysis-evidence-body{overflow-wrap:anywhere;white-space:pre-wrap}
+.analysis-title,.analysis-brands>div:first-child,.conversation-card header{flex-wrap:wrap}
+.analysis-status{padding:12px 16px;border:1px solid #dce7fa;border-radius:7px;background:#edf4ff;color:#42658c;font-size:12px;line-height:1.8}
+.analysis-status.is-error{background:#fff2f0;border-color:#ffd1c9;color:#b34237}
+.analysis-selection,.analysis-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:16px 0 10px}
+.analysis-selection h3,.analysis-tools h3{font-size:15px;margin:0}
+.analysis-selection span{font-size:12px;color:#64748b}
+.analysis-tools>div{display:flex;gap:8px;flex-wrap:wrap}
+.geo-console .analysis-answer-tabs button{min-height:34px}
+.analysis-answer-tabs button[aria-pressed="true"]{background:#edf4ff;color:#2874ff;border-color:#80afff}
+#analysis-feedback{margin:0;font-size:12px;color:#2874ff}
+#analysis-feedback:not(:empty){padding:0 0 12px}
+#analysis-feedback.is-error{color:#b34237}
+.analysis-empty{padding:24px 8px;color:#64748b;line-height:1.9}
+.analysis-empty strong{color:#263b56;font-size:15px}
+.analysis-footer{flex-wrap:wrap;padding-top:16px;border-top:1px solid #e2e8f0}
+.analysis-evidence[hidden]{display:none}
+.analysis-evidence-body{white-space:normal}
+.analysis-brands small,.conversation-body small{font-size:12px;color:#64748b;line-height:1.8}
+.analysis-evidence-body p{font-size:12px}
+@media(max-width:800px){
+  #analysis-body{padding:14px}
+  .analysis-brands{padding:16px}
+  .analysis-tools>div{width:100%}
+  .analysis-tools button{flex:1}
+  .conversation-body{padding:14px}
+  .model-answer{padding:14px;margin:18px 0}
+  .analysis-footer{gap:8px}
+}
+
+/* 参考站的业务菜单与页签壳层；项目切换放到顶栏，不占侧栏首屏。 */
+.geo-console aside .workspace-label{display:none}
+.geo-console .console-project-picker{display:flex;align-items:center;gap:8px;margin:0 0 0 auto;padding:0;color:#ccd4df;font-size:12px;min-width:0}
+.geo-console .console-project-picker select{margin:0;width:200px;max-width:24vw;background:#17181b;border-color:#33363b;color:#f1f5f9;min-height:32px;padding:4px 8px;border-radius:4px}
+.geo-console .topbar .account{margin-left:10px}
+.geo-console nav{display:flex;flex-direction:column;gap:0;margin:0;overflow-y:auto;min-height:0;flex:1}
+.geo-console nav .console-home{min-height:46px;gap:10px;padding:0 15px;font-size:14px;flex-shrink:0}
+.console-home svg,.console-nav-group summary svg,.console-sidebar-controls svg{width:19px;height:19px;flex-shrink:0}
+.geo-console nav details.console-nav-group{margin:0;border:0;padding:0;flex-shrink:0}
+.console-nav-group>summary{display:flex;align-items:center;gap:10px;min-height:50px;padding:0 14px;color:#526079;font-size:14px;list-style:none;border-radius:5px}
+.console-nav-group>summary::-webkit-details-marker{display:none}
+.console-nav-group>summary:hover{background:#f5f7fa}
+.console-nav-group>summary i{margin-left:auto;border-right:1px solid #6f7b8b;border-bottom:1px solid #6f7b8b;width:6px;height:6px;transform:rotate(45deg)}
+.console-nav-group[open]>summary i{transform:rotate(225deg)}
+.console-nav-children{display:grid;gap:5px;padding:2px 0 7px}
+.geo-console nav .console-nav-children button{min-height:44px;padding:9px 12px 9px 38px;font-size:13px;line-height:1.5;border-left:0;display:block;white-space:normal}
+.geo-console nav .console-nav-children button.active{background:#060606;color:#fff;border-left:0}
+.geo-console aside .sidebar-bottom{margin-top:0;padding:10px 12px 8px;border-top:1px solid #edf0f5}
+.geo-console .sidebar-bottom .research-note{display:none}
+.geo-console .sidebar-bottom a{font-size:11px}
+.console-sidebar-controls{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #edf0f5;padding:7px 6px 0;gap:8px}
+.console-sidebar-controls button{display:flex;align-items:center;justify-content:center;background:transparent;color:#526079;border:0;margin:0;min-height:32px;padding:5px 7px;font-size:12px}
+.console-sidebar-controls button:hover{background:#f0f5fc;color:#2874ff}
+.console-menu-label{display:none}
+.geo-console .console-tabs{scrollbar-width:none;overflow-x:auto;overflow-y:hidden}
+.geo-console .console-tab{flex-shrink:0}
+.geo-console .console-tab button{font-size:13px;color:#253858;border-radius:0}
+.geo-console .console-tab.selected button{color:#337dff}
+.geo-console .environment{color:#fff;background:#db1649;border-color:#db1649}
+.geo-console main>header,.geo-console main>.boundary{display:none}
+.geo-console main>footer{font-size:11px;margin:18px 0 0}
+.geo-console .monitor-filters input,.geo-console .monitor-filters select{border-radius:4px;min-height:32px;height:32px}
+.geo-console .monitor-pagination{justify-content:center;margin-top:14px;gap:10px}
+.geo-console .monitor-table th,.geo-console .monitor-table td{padding:10px 16px}
+.geo-console .monitor-table th{text-align:center}
+.geo-console .badge{border-radius:4px;font-size:12px;padding:3px 8px}
+.console-list-note{font-size:12px;color:#7b879a;margin-left:auto}
+.monitor-toolbar>div{display:flex;gap:8px}
+.console-editor:not([open]){display:none}
+.console-editor{margin:0 0 16px;padding:0}
+.console-editor>summary{padding:12px 18px;background:#eef4fe;border-radius:8px;font-size:14px;color:#315f9c}
+.console-editor .card{margin-top:10px}
+.console-document-dialog{padding:0;width:min(900px,calc(100vw - 32px));max-width:none;max-height:90vh}
+.console-document-dialog .analysis-heading{margin:0}
+#document-view-body{padding:20px;overflow-wrap:anywhere}
+#document-view-body pre{max-height:60vh;overflow:auto;line-height:1.9;background:#fafbfe}
+
+/* 创建流程呈现为助手消息和确认气泡，实际操作仍由可校验表单完成。 */
+.geo-console .agent-welcome{padding:12px 10px 0;gap:16px}
+.geo-console .agent-welcome h2{font-size:18px;color:#17263e;margin:0 0 10px}
+.agent-welcome .agent-avatar{width:46px;height:46px;background:linear-gradient(145deg,#263b56,#101a2a);font-size:22px}
+.geo-console .agent-welcome .agent-message{border-radius:14px 14px 0 0;border-bottom:0;box-shadow:0 1px 4px #20385405;padding:18px 22px 6px}
+.geo-console .agent-message p{font-size:14px;line-height:1.95;color:#263c59;margin:0 0 20px}
+.geo-console .agent-message p.console-hint{font-size:12px;color:#7b8aa0;margin-bottom:8px}
+.geo-console .agent-creation-card{margin:0 10px 20px 72px;border:1px solid #edf0f6;border-top:0;border-radius:0 0 14px 14px;padding:16px 22px 22px;box-shadow:0 2px 4px #20385405}
+.geo-console .wizard-steps{justify-content:flex-start;gap:24px;border-top:1px solid #eef2f7;padding:15px 0 0;margin:0 0 18px}
+.geo-console .wizard-steps b{width:22px;height:22px;font-size:11px}
+.geo-console .wizard-steps span{font-size:12px;gap:7px}
+.geo-console .agent-creation-card [data-wizard-panel="0"]{display:grid;grid-template-columns:1fr 1fr;gap:0 18px;border:2px solid #4c98ff;border-radius:10px;padding:14px 16px}
+.geo-console .agent-creation-card [data-wizard-panel="0"]>details{grid-column:1/-1;margin:8px 0 0}
+.geo-console .agent-creation-card label{font-size:13px;margin:4px 0 10px}
+.geo-console .agent-creation-card input,.geo-console .agent-creation-card textarea{background:#fbfcff;border-radius:5px;min-height:38px}
+.geo-console .wizard-actions{margin:14px 0 0;align-items:center;gap:10px}
+.geo-console .wizard-actions button{min-height:34px;border-radius:5px}
+.wizard-conversation{margin:0 10px 0 72px}
+.wizard-conversation:empty{display:none}
+.wizard-confirmed{display:flex;justify-content:flex-end;align-items:flex-start;gap:12px;margin:16px 0}
+.wizard-confirmed>div{background:#eaf6ff;border:1px solid #8dceff;border-radius:14px;padding:12px 18px;max-width:85%}
+.geo-console .wizard-confirmed p{font-size:13px;color:#234d6d;margin:0 0 5px;overflow-wrap:anywhere}
+.geo-console .wizard-confirmed button{background:transparent;border:0;padding:0;min-height:24px;margin:0;font-size:12px;color:#2874ff}
+.wizard-confirmed>span{display:grid;place-items:center;width:34px;height:34px;background:#dbeafe;color:#2863b0;border-radius:50%;font-size:12px;flex-shrink:0}
+.geo-console .wizard-config-card{padding:18px;background:#fff}
+.geo-console .wizard-mode{padding:13px 16px;margin:10px 0;gap:10px}
+.geo-console .wizard-mode input{min-height:0;width:16px;background:transparent}
+.geo-console .maintenance-summary{padding:16px 20px}
+
+@media(min-width:761px){
+  .geo-console aside{padding:12px 7px 5px}
+  .geo-console main{max-width:none;padding:106px 12px 20px}
+  .geo-console.sidebar-collapsed aside{width:56px;padding:12px 4px 5px}
+  .geo-console.sidebar-collapsed .tabbar{left:56px}
+  .geo-console.sidebar-collapsed main{margin-left:56px}
+  .sidebar-collapsed .console-nav-group summary span,.sidebar-collapsed .console-nav-group summary i,
+  .sidebar-collapsed .console-nav-children,.sidebar-collapsed .console-home span,.sidebar-collapsed .sidebar-bottom,
+  .sidebar-collapsed .console-sidebar-controls #reload{display:none}
+  .geo-console.sidebar-collapsed nav .console-home,.sidebar-collapsed .console-nav-group>summary{padding:0;justify-content:center}
+}
+@media(max-width:760px){
+  .geo-console .console-project-picker{font-size:0}
+  .geo-console .console-project-picker select{max-width:26vw;width:160px;font-size:12px}
+  .geo-console .agent-creation-card,.wizard-conversation{margin-left:10px}
+  .geo-console .agent-welcome .agent-avatar{display:none}
+  .geo-console .agent-creation-card [data-wizard-panel="0"]{grid-template-columns:1fr}
+  .geo-console .wizard-steps{gap:10px;flex-wrap:wrap}
+  .geo-console .agent-message p{font-size:13px}
+  .console-sidebar-controls{display:none}
+}
+@media(max-width:560px){
+  .geo-console aside{padding:5px 10px;display:flex;flex-direction:column}
+  .geo-console .console-project-picker{display:flex;font-size:0}
+  .geo-console .console-project-picker select{max-width:30vw;font-size:11px}
+  .geo-console #username,.geo-console .sidebar-bottom{display:none}
+  .geo-console .console-sidebar-controls{display:flex;order:-1;padding:0;border:0}
+  .console-menu-label{display:inline;margin-left:8px}
+  .geo-console nav{display:none;overflow:visible}
+  .geo-console.mobile-menu-open nav{display:flex}
+  .console-nav-group>summary{min-height:40px;padding:0 8px;font-size:13px}
+  .geo-console nav .console-nav-children button{padding:8px;font-size:12px;min-height:36px}
+  .geo-console nav .console-home{min-height:40px}
+  .geo-console .monitor-filters label{width:100%;flex-wrap:nowrap}
+  .geo-console .monitor-filters input,.geo-console .monitor-filters select{flex:1;min-width:0}
+  .geo-console .monitor-filters .range-field button{min-width:0;width:100%}
+  .geo-console .monitor-toolbar h2{font-size:21px}
+  .geo-console .agent-creation-card{padding:12px}
+}
+
+/* 首页启动台：数据卡、业务入口与大输入框使用参考页的统一网格布局。 */
+.home-stat-grid,.home-feature-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:18px}
+.home-stat-grid article{position:relative;background:#fff;border:1px solid #dce7f5;border-radius:16px;padding:18px 24px;box-shadow:0 4px 12px #243f6410;min-width:0}
+.home-stat-grid article>span{font-size:13px;color:#64748b}
+.home-stat-grid strong{display:block;font-size:28px;line-height:1.6;color:#60a5e8;font-variant-numeric:tabular-nums;letter-spacing:.5px}
+.home-stat-grid small{display:block;font-size:11px;color:#8a98ab}
+.geo-console main .home-feature-grid button{display:block;text-align:left;white-space:normal;padding:20px 22px;min-height:128px;margin:0;border-radius:16px;border:1px solid #dce7f5;background:#fff;box-shadow:0 4px 12px #243f6410;color:#26364b}
+.home-feature-grid b{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:600;margin-bottom:13px}
+.home-feature-grid b i{display:grid;place-items:center;font-style:normal;font-weight:500;font-size:14px;width:25px;height:25px;border:1px solid #8cc9e9;border-radius:5px;color:#3ba0c5;flex-shrink:0}
+.home-feature-grid b>span{margin-left:auto;color:#a0aab8;font-size:23px;font-weight:400}
+.home-feature-grid small{display:block;color:#718096;font-size:12px;line-height:1.9}
+.home-launch{padding:30px 28px 20px;border:1px solid #dfe9f5;border-radius:18px;background-color:#fff;background-image:linear-gradient(#8dc3ff18 1px,transparent 1px),linear-gradient(90deg,#8dc3ff18 1px,transparent 1px);background-size:20px 20px;margin-bottom:18px;text-align:center}
+.home-launch h2{font-size:36px;letter-spacing:1px;color:#26364b;margin:0 0 4px;font-weight:700}
+.geo-console .home-launch .home-launch-subtitle{font-size:14px;color:#70839f;margin:0 0 28px}
+.geo-console .home-launch .home-launch-tagline{font-size:14px;font-weight:600;color:#3e5574;margin:0 0 20px}
+.home-launch-tagline>span{color:#8bb8ff;margin-right:7px}
+.home-composer{max-width:1240px;margin:0 auto;border:2px solid #4595ff;border-radius:12px;background:#fff;padding:14px 16px 12px;box-shadow:0 2px 5px #305f9c15;text-align:left}
+.home-composer:focus-within{box-shadow:0 0 0 3px #4595ff14}
+.home-input-label{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.geo-console .home-composer textarea{margin:0;border:0;background:transparent;box-shadow:none;padding:3px 0;resize:vertical;min-height:100px;max-height:260px;font-size:14px;line-height:1.9;color:#2b405d;border-radius:0}
+.home-composer textarea::placeholder{color:#94a3b8}
+.home-composer-footer{display:flex;align-items:flex-end;gap:16px;margin-top:10px}
+.geo-console .home-composer .home-task-label{margin:0;padding:0;color:#4388da;font-size:11px;flex-shrink:0}
+.geo-console .home-task-label select{width:235px;margin-top:5px;min-height:32px;padding:4px 8px;background:#f5f9ff;border:1px solid #8bb9ff;border-radius:5px;color:#337dff;font-size:12px}
+.home-creation-settings{padding-left:16px;border-left:1px solid #e0e8f4}
+.home-creation-settings>span{font-size:11px;color:#7b8ea8;display:block}
+.home-creation-settings>div{display:flex;gap:8px;flex-wrap:wrap;margin-top:5px}
+.geo-console main .home-creation-settings button{margin:0;padding:4px 11px;font-size:12px;min-height:32px;border-radius:4px;background:#f4f7fc;color:#416080;border:1px solid #dce5f2}
+.geo-console main #home-launch-submit{margin:0 0 3px auto;padding:8px;width:40px;height:40px;min-height:40px;display:grid;place-items:center;border-radius:8px;flex-shrink:0}
+#home-launch-submit svg{width:23px;height:23px}
+.geo-console .home-launch .home-task-description{font-size:11px;color:#8090a7;line-height:1.8;margin:8px auto 0;max-width:1000px}
+.geo-console #home-launch-feedback{font-size:12px;color:#b45336;margin:8px 0 0}
+#home-launch-feedback:empty{display:none}
+.home-quick-actions{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+.geo-console main .home-quick-actions button{font-size:12px;background:transparent;border:0;color:#6581a6;padding:4px 6px;min-height:28px;margin:0}
+.geo-console[data-workspace-view="home"] .guide-next{padding:15px 22px;margin-bottom:0}
+.geo-console[data-workspace-view="home"] .guide-next h2{font-size:16px;margin:4px 0}
+.geo-console[data-workspace-view="home"] .guide-next p{font-size:12px;margin:4px 0}
+@media(max-width:1100px){
+  .home-stat-grid,.home-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .geo-console main .home-feature-grid button{min-height:110px;padding:16px 18px}
+  .home-launch{padding:26px 20px 18px}
+}
+@media(max-width:760px){
+  .home-stat-grid article{padding:14px 16px}
+  .home-stat-grid strong{font-size:25px}
+  .home-launch h2{font-size:27px}
+  .home-composer-footer{flex-wrap:wrap;gap:12px}
+  .home-creation-settings{padding-left:0;border-left:0;flex:1}
+  .geo-console .home-task-label select{width:100%}
+  .geo-console .home-composer .home-task-label{width:100%}
+}
+@media(max-width:560px){
+  .home-stat-grid,.home-feature-grid{gap:9px;margin-bottom:12px}
+  .home-stat-grid article{padding:12px}
+  .home-stat-grid article>span{font-size:12px}
+  .home-stat-grid small{font-size:10px}
+  .home-feature-grid b{font-size:13px;gap:6px;margin-bottom:9px}
+  .home-feature-grid b i{width:21px;height:21px;font-size:12px}
+  .geo-console main .home-feature-grid button{padding:13px 12px}
+  .home-feature-grid small{font-size:11px}
+  .home-launch{padding:24px 12px 16px;border-radius:12px}
+  .home-launch h2{font-size:23px}
+  .geo-console .home-launch .home-launch-subtitle{font-size:12px;margin-bottom:20px}
+  .geo-console .home-launch .home-launch-tagline{font-size:13px}
+  .home-composer{padding:12px}
+  .geo-console .home-composer textarea{min-height:145px;font-size:13px}
+}
+
+.home-chat{text-align:left;background:#ffffffed;border:1px solid #e1eaf6;border-radius:14px;max-width:1240px;margin:20px auto 0;padding:20px}
+.home-chat-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.home-chat-heading h3{font-size:16px;margin:0;color:#263c59}
+.home-chat-heading span{font-size:12px;color:#73859d;overflow-wrap:anywhere}
+.geo-console .home-chat .home-chat-memory{font-size:11px;line-height:1.8;color:#8190a5;margin:8px 0 16px}
+.geo-console .home-chat .home-chat-empty{font-size:13px;text-align:center;padding:20px 10px;color:#8190a5}
+.home-chat-message{display:flex;gap:10px;margin:16px 0;align-items:flex-start}
+.home-chat-avatar{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#e9f1ff;color:#3278df;flex-shrink:0;font-size:10px;font-weight:600}
+.home-chat-message>div{max-width:88%;min-width:0;border:1px solid #e2eaf5;background:#fff;border-radius:0 12px 12px 12px;padding:13px 16px}
+.home-chat-message b{font-size:12px;color:#6a7d96}
+.home-chat-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.9;color:#2c415e;margin-top:6px}
+.home-chat-message.user{flex-direction:row-reverse}
+.home-chat-message.user>div{background:#edf6ff;border-color:#bddcff;border-radius:12px 0 12px 12px}
+.home-chat-message.error>div{background:#fff8f5;border-color:#f8d7c6}
+.home-chat-citation{font-size:12px;border-top:1px solid #e8eef7;padding-top:8px;overflow-wrap:anywhere}
+.home-chat-citation blockquote{margin:8px 0;padding:10px;background:#f5f8fe;border-left:3px solid #8ab6f8;overflow-wrap:anywhere}
+.home-agent-heading{font-size:13px;font-weight:600;color:#496484;margin:18px 0 10px}
+.home-agent-heading small{font-weight:400;color:#9aa7b8;margin-left:8px}
+.home-agent-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.home-agent-step{border:1px solid #e2e9f3;border-radius:8px;padding:10px;background:#f9fbfe}
+.home-agent-step b{font-size:12px;display:block}
+.home-agent-step>span{font-size:11px;color:#8191a7}
+.geo-console .home-agent-step p{font-size:11px;margin:5px 0 0;line-height:1.7}
+.home-agent-step.running{border-color:#76abff;background:#eef5ff}
+.home-agent-step.completed>span{color:#159a6a}
+.home-agent-step.failed{border-color:#f4b7af;background:#fff5f3}
+.geo-console #home-chat-status{font-size:12px;margin:12px 0 0;line-height:1.8;color:#5d789c}
+@media(max-width:760px){.home-agent-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.home-chat{padding:14px}.home-chat-message>div{max-width:calc(100% - 44px);padding:10px 12px}.home-chat-text{font-size:13px}}
+
+/* 原图仅在展示层取景，保留用户提供的动画造型与材质。 */
+.home-agent-team{max-width:1100px;margin:24px auto 8px}
+.home-agent-team-heading h3{font-size:18px;color:#263c59;margin:0 0 4px}
+.geo-console .home-agent-team-heading p{font-size:12px;color:#8492a7;margin:0 0 18px}
+.home-agent-team-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.home-agent-persona{background:#fff;border:1px solid #e0e7f0;border-radius:16px;box-shadow:0 2px 5px #1f3c6410;padding:14px 16px 18px;text-align:center;min-width:0}
+.home-agent-portrait{--portrait-scale:1.2;position:relative;display:block;width:96px;height:96px;overflow:hidden;flex-shrink:0;border-radius:50%;background:#fff;border:1px solid #e6edf7;margin:2px auto 14px}
+.home-agent-portrait img{position:absolute;display:block;width:calc(478px * var(--portrait-scale));height:calc(360px * var(--portrait-scale));max-width:none;left:calc(50% - var(--portrait-x) * var(--portrait-scale));top:calc(50% - var(--portrait-y) * var(--portrait-scale))}
+.home-agent-step-head .home-agent-portrait{--portrait-scale:.6;width:48px;height:48px;margin:0}
+.home-agent-art{height:166px;display:flex;align-items:center;justify-content:center;margin-bottom:10px;background:radial-gradient(ellipse at 50% 72%,#eaf3ff 0,transparent 68%);border-radius:12px}
+.home-agent-art img{display:block;max-width:100%;width:176px;height:166px;object-fit:contain}
+.home-agent-persona h4{font-size:16px;font-weight:600;margin:0 0 3px;color:#26364b}
+.home-agent-chinese-name{display:block;font-size:12px;color:#7c8ca3}
+.home-agent-role{display:inline-block;padding:4px 10px;background:#eff6ff;color:#3a83e9;border-radius:20px;font-size:11px;margin-top:12px}
+.geo-console .home-agent-persona p{font-size:12px;color:#8290a3;line-height:1.8;margin:10px 0 0}
+.home-agent-step-head{display:flex;align-items:center;gap:6px;min-width:0;margin-bottom:5px}
+.home-agent-step-head>div{min-width:0}
+.home-agent-step-head b{overflow-wrap:anywhere;line-height:1.6}
+.home-agent-step-head small{font-size:10px;color:#8191a7;line-height:1.7;display:block}
+@media(max-width:1100px){.home-agent-team-grid{gap:12px}.home-agent-persona{padding:10px 10px 16px}.home-agent-art,.home-agent-art img{height:140px}.home-agent-persona h4{font-size:14px}}
+@media(max-width:760px){.home-agent-team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-agent-art,.home-agent-art img{height:155px}}
+@media(max-width:560px){.home-agent-team-grid{gap:10px}.home-agent-persona{padding:10px 8px 14px}.home-agent-art,.home-agent-art img{height:136px}.geo-console .home-agent-persona p{font-size:11px}.home-agent-role{font-size:10px;padding:4px 8px}.home-agent-step-head{align-items:flex-start;flex-direction:column}}
